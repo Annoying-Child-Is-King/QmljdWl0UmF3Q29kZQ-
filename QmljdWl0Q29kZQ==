@@ -1,6 +1,6 @@
-<html lang="en" class="js localstorage no-touchevents isIframe no-touch theme--night"><head>
-  <title>MoistBiscuits</title>
-  <meta name="description" content="This is a simple web chat.">
+<html lang="en" class="js localstorage no-touchevents isIframe no-touch theme--day"><head>
+  <title>tlk.io / moistbiscuits</title>
+  <meta name="description" content="This is a simple web chat. It's open to anyone and chat channels are owner-free.">
   <meta name="author" content="See tlk.io/humans.txt">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -25,7 +25,7 @@
   <link href="/images/startup-640x960.png" rel="apple-touch-startup-image" sizes="640x960" media="(device-height: 480px)">
 
   <meta name="csrf-param" content="authenticity_token">
-<meta name="csrf-token" content="8BQAfa+PdsRF4q1mNMuUsu8T83u6f9P782kHNeIab/PpffFjZWJA5h77fwXnqJ0sqc7/Q1IJ7tzmyUDKGaeVlA==">
+<meta name="csrf-token" content="TJvT4evBPuI+T0ek0nYapgWu51a5ReDUdu9PvQjJib1V8iL/ISwIwGVWlccBFRM4Q3PrblEz3fNjTwhC83Rz2g==">
 
   <link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:regular,bold|Terminal+Dosis:500">
 
@@ -50,44 +50,24 @@
 <body class="isHero">
   
   <!--
-    This is an embedded version of the MoistBiscuits
-    Fullscreen chat is not yet available
-    Soon though
+    This is an embedded version of the tlk.io.
+    Fullscreen chat is available at: tlk.io/moistbiscuits
+    To embed a chat like this on your webpage: tlk.io/#embed
 
-    
+    Best regards,
+    @antstorm and @simurai
   -->
 
 <header id="header" class="header">
   <div class="header-bar">
       <a class="header-avatar" href="http://tlk.io">tlk.io</a>
-    <span id="channel" class="header-channel">MoistBiscuits</span>
+    <span id="channel" class="header-channel">moistbiscuits</span>
     <span class="header-status is-hidden" title="Online"></span>
   </div>
 </header>
 
 <div id="chat" class="chat" dir="auto">
-  <section id="live">
-    <button id="load-button" class="button button-load">Load more</button>
-  <dl class="post author_e0b601 me last-of-time" data-user-id="e0b601" data-user-nickname="Annoying-Child">
-  <dt class="post-meta" data-timestamp="1764107770">
-    
-      <span class="post-name">Annoying-Child</span>
-      <div class="post-reply js-reply" data-name="Annoying-Child">
-        <div class="post-avatar post-avatar--troll">A</div>
-        <button class="post-reply-button">@</button>
-      </div>
-    
-  </dt>
-<dd class="post-message deleted" data-timestamp="1764107770">Message removed by author</dd><dd class="is-reply post-message" data-timestamp="1764107932">
-  <a href="#" class="reply" data-reply-to="Annoying-Child">@Annoying-Child</a> 
-  <div class="post-time">
-    <div class="post-time-dot"></div>
-    <div class="post-time-tag">
-      <span class="post-time-label js-post-time-tag"></span>
-      <button id="delete-message" class="post-time-button" style="display: inline-block;">Delete</button>
-    </div>
-  </div>
-</dd></dl></section>
+  <section id="live"></section>
 </div>
 
 <footer class="footer">
@@ -188,8 +168,8 @@
   </div>
 
   <div class="info">
-    <p><a href="https://" target="_blank">A chat by Annoying-Child</a></p>
-    <p><a href="" target="_blank">So Yea... <br> Have Fun!</a></p>
+    <p><a href="..."_blank">A chat by Annoying-Child</a></p>
+    <p><a href="..." target="_blank">So Yea... <br> Have Fun!</a></p>
   </div>
 
 </aside>
@@ -431,8 +411,8 @@
     Talkio.Variables.message_view_limit = 50;
     Talkio.Variables.session_token = 'ed7ff3d5968cc62010c9';
     Talkio.Variables.chat_id = '10059529';
-    Talkio.Variables.permalink = 'MoistBiscuits';
-    Talkio.Variables.theme = 'theme--night';
+    Talkio.Variables.permalink = 'moistbiscuits';
+    Talkio.Variables.theme = 'theme--day';
     Talkio.Variables.timestamps = {
         31556952: 'Long long time ago',
         7889238: 'Couple months ago',
@@ -487,4 +467,3 @@
     <div class="popup-footer">Remember, this is a public chat. Anybody with the link can read.</div>
   </div>
 </section></body></html>
-
