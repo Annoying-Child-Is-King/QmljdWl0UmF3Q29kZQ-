@@ -25,7 +25,7 @@
   <link href="/images/startup-640x960.png" rel="apple-touch-startup-image" sizes="640x960" media="(device-height: 480px)">
 
   <meta name="csrf-param" content="authenticity_token">
-<meta name="csrf-token" content="WIN9SWNrgIWPsnHUqNLViBWWvgdBt7vk0ajDAgs+T5JB6oxXqYa2p9Sro7d7sdwWU0uyP6nBhsPECIT98IO19Q==">
+<meta name="csrf-token" content="yPZyznBNQatYRxmxcKBz4LTp8Tf3vka9sqiYsYazMW7Rn4PQuqB3iQNey9Kjw3p+8jT9Dx/Ie5qnCN9OfQ7LCQ==">
 
   <link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Open+Sans:regular,bold|Terminal+Dosis:500">
 
@@ -62,7 +62,7 @@
   <div class="header-bar">
       <a class="header-avatar" href="http://tlk.io">tlk.io</a>
     <span id="channel" class="header-channel">moistbiscuits</span>
-    <span class="header-status is-online" title="Online"></span>
+    <span class="header-status is-hidden" title="Online"></span>
   </div>
 </header>
 
@@ -154,16 +154,21 @@
   </div>
 
   <div class="participants">
-    <ul id="online-participants" class="list list--participant"><li id="author_e0b601" class="list-item">
+    <ul id="online-participants" class="list list--participant"><li id="author_c5af5d" class="list-item">
   
     <span class="list-item-avatar"></span>
   
   <span class="list-item-name">Annoying-Child</span>
+</li><li id="author_9219ae" class="list-item">
+  
+    <span class="list-item-avatar"></span>
+  
+  <span class="list-item-name">Jimmy</span>
 </li></ul>
   </div>
 
   <div class="counter">
-    <span id="user-counter" class="counter-nr">1</span> online
+    <span id="user-counter" class="counter-nr">2</span> online
     <button id="share_button" class="counter-button button" title="Invite">+</button>
   </div>
 
@@ -178,7 +183,7 @@
   <button id="panel-button" class="nav-button">
     <svg class="nav-button-slider" viewBox="0 0 100 50"><use xlink:href="#icon-nav"></use></svg>
   </button>
-  <div id="panel-counter" class="nav-counter">1</div>
+  <div id="panel-counter" class="nav-counter">2</div>
 </nav>
 
 <button id="scroll_down" class="scrollButton">
@@ -443,7 +448,7 @@
       Talkio.Variables.owned_channels = new Talkio.Collections.Channels([]);
       Talkio.Variables.owners = new Talkio.Collections.Owners([]);
       Talkio.Variables.channel_settings = new Talkio.Models.ChannelSettings({"id":10059529,"history_ttl":600,"allow_anonymous":true});
-      Talkio.Variables.current_user = new Talkio.Models.CurrentUser({"token":"e0b601","nickname":"Annoying-Child","provider":"anonymous","avatar":null,"profile_url":null});
+      Talkio.Variables.current_user = new Talkio.Models.CurrentUser({"token":"c5af5d","nickname":"Annoying-Child","provider":"anonymous","avatar":null,"profile_url":null});
 
 
       Talkio.Variables.chat_room = new Talkio.Views.ChatRoom({ collection: Talkio.Variables.users });
